@@ -954,6 +954,14 @@ form textarea {
     0 0 25px cyan, 0 0 50px cyan,
     0 0 100px cyan, 0 0 200px cyan;
 }
+@media(max-width:800px){
+  .contact-input{
+    width: 80vw;
+  }
+.contact-text{
+  display: none;
+}
+}
 
 .last-text p {
   width: 100%;
@@ -977,8 +985,6 @@ form textarea {
   padding: 13px;
   border-radius: 0.5rem;
 }
-
-
 
 
 
